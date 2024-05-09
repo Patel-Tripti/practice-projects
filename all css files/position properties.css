@@ -1,0 +1,33 @@
+.box1 {
+  width: 200px;
+  height: 150px;
+  background-color: teal;
+  position: absolute;
+  animation-name: task;
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+  animation-timing-function: ease-out;
+
+}
+@keyframes task {
+  0% {
+    top: 0%;
+    left: 0%;
+  }
+  25% {
+    top: 0%;
+    left: 300px;
+  }
+  50% {
+    left: 300px;
+    top: 200px;
+  }
+  75% {
+    top: 200px;
+    left:8px;
+  }
+  100%{
+    left:0px ;
+    top: 0px;
+  }
+}

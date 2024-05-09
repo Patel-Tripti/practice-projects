@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    
+    <style>
+       *{
+        box-sizing: border-box;
+       }
+        .container{
+            width: 700px;
+            border: 2px solid red;
+            background-color: rgb(247, 210, 222);
+            margin: 30px auto;
+        }
+        .iteam{
+            border: 2px solid rgb(43, 46, 57);
+            background-color: rgb(150, 154, 152);
+            margin: 10px 5px;
+            padding: 10px 5px;
+        }
+        #fruits{
+            float: left;
+            width: 48%;
+        }
+        #computer{
+            float: left;
+            width: 48%;
+                    }
+         #glasses{
+            /* float: left;   */
+            clear: both;
+            width: 98%; }  
+            p,h3{
+                text-align: left;
+                text-align: right;
+            }
+            h1{
+                margin: auto;
+                width: 50%;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>wellcome to my store</h1>
+        <div id="fruits" class="iteam">
+            <h3>Fruits</h3>
+            <p id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere corporis itaque explicabo! Vel, quaerat dolorem magni nemo officiis ut iure. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus perferendis architecto fuga illum maxime recusandae, officia repellendus facere consequuntur aspernatur!</p>
+        </div>
+        <div id="computer" class="iteam">
+            <h3>computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat totam alias eveniet doloribus provident iure natus, ipsa pariatur repellat cum, nisi ducimus, veritatis minima assumenda voluptas quam quaerat dolorem explicabo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cupiditate veritatis, vitae nobis impedit molestiae culpa et ullam cumque ad Odio distinctio porro aut cupiditate consequatur laboriosam!</p>
+            </div>
+            <div id="glasses" class="iteam">
+                <h3>stationary</h3>
+                <p id="glasspara" class="para">Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus neque in maxime porro distinctio at nobis a earum vitae ea?</p>
+            </div>
+            </div>
+
+</body>
+</html>

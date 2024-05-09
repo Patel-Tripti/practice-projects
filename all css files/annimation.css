@@ -1,0 +1,49 @@
+.container {
+  width: 1270px;
+  height: 600px;
+  background:linear-gradient(rgb(209, 94, 94),green);
+}
+p {
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
+  background-color: rgb(240, 84, 100);
+  text-align: center;
+  position: absolute;
+  animation-name: task;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+  margin-left: 45%;
+  /* animation-direction: alternate-reverse; */
+}
+
+@keyframes task {
+  0% {
+    top: 0px;
+    left: 0px;
+  }
+  25% {
+    top: 280px;
+    left: 570px;
+    background-color: red;
+    font-weight: 800;
+  }
+  50% {
+    left: 0px;
+    top: 530px;
+    background-color: teal;
+    font-weight: 400;
+  }
+  75% {
+    top: 268px;
+    left: -550px;
+    background-color: tomato;
+    font-weight: 700;
+  }
+
+  100% {
+    top: 0px;
+    left: 0px;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,34 @@
+
+        .box{
+            border: 2px solid black;
+            width: 500px;
+            word-break: break-all;
+            text-align: center;
+            /* word-spacing: 20px; */
+            /* letter-spacing: 15px; */
+            text-align-last: justify;
+            text-transform: uppercase;
+            text-indent: 20px;
+            line-height: 2rem;  
+        }
+        h1{
+            text-align: center;
+            word-spacing: 15px;
+            letter-spacing: 7px;
+        }
+        a{
+            padding-right: 30px;
+            font-size: 20px;
+            text-decoration: line-through wavy red;
+        }
+        .box2{
+            border: 2px solid black;
+        }
+        #h12{
+            column-span: all;
+            /* border-bottom: 5px solid crimson; */
+            column-count: 3;
+            column-gap: 20px;
+            column-rule: 2px dotted black;
+        }
+    

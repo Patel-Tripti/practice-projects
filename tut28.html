@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <style>
+      .container {
+        width: 100%;
+        height: 544px;
+        border: 3px solid black;
+        display: flex;
+        /* flex properties for flex container(defult value row) */
+        flex-direction: row;
+        /* flex-direction: column; */
+        /* flex-direction: row-reverse; */
+        /* flex-direction: column-reverse; */
+
+        flex-wrap: nowrap;
+        /* flex-wrap: wrap; */
+        /* flex-wrap: wrap-reverse; */
+        /* flex flow is a shorthand for flex direction and flex wrap. */
+        /* flex-flow: column-reverse wrap; */
+
+        justify-content: center;
+        /* justify-content: space-around; */
+        /* justify-content: space-evenly; */
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        /* align-items: flex-end; */
+        /* align-items: flex-start; */
+        /* align-items: stretch; */
+        (default value of align iteams is flex start)
+      }
+      .iteam {
+        border: 2px solid red;
+        background-color: aqua;
+        margin: 20px;
+        padding: 5px;
+        font-size: 50px;
+        width: 200px;
+        height: 240px;
+      }
+      #box1{
+        order:2;
+        /* flex-grow: 2; */
+        align-self: center;
+        align-self: flex-end;
+        /* align-self: flex-start; */
+      }
+      #box2{
+        order:4;
+        /* flex-grow: 3; */
+        /* flex-shrink: 2; */
+      }
+      #box3{
+        order:5;
+        flex-basis: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is flexbox tutorial</h1>
+    <div class="container">
+      <div class="iteam" id="box1">First box</div>
+      <div class="iteam" id="box2">Second box</div>
+      <div class="iteam" id="box3">Third box</div>
+      <div class="iteam" id="box4">Fourth box</div>
+      <div class="iteam" id="box5">Fifth box</div>
+      <div class="iteam" id="box6">Sixth box</div>
+    </div>
+  </body>
+</html>

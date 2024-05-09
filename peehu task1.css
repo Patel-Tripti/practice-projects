@@ -1,0 +1,86 @@
+#b1 {
+  /* border: 2px solid black; */
+  width: 250px;
+  float: left;
+  /* background-color: tan; */
+  margin: 10px 0px 0px 5px;
+}
+h1{
+  letter-spacing: 8px;
+  text-shadow: 2px 2px 5px black
+
+}
+#img1 {
+  width: 100px;
+  height: 80px;
+  border: 1px solid black;
+}
+#img2 {
+  width: 100px;
+  height: 80px;
+  /* float: right; */
+  border: 1px solid black;
+}
+#img3 {
+  width: 100px;
+  height: 80px;
+  border: 1px solid black;
+}
+#img4 {
+  width: 100px;
+  height: 80px;
+  border: 1px solid black;
+}
+
+#b2 {
+  width: 250px;
+  /* border: 2px solid black; */
+  float: left;
+  /* background-color: palevioletred; */
+  margin: 10px 0px 0px 15px;
+}
+img {
+  width: 200px;
+  height: 180px;
+  padding-left: 20px;
+}
+a {
+  text-decoration: none;
+  padding-left: 20px;
+}
+#b3 {
+  width: 250px;
+  /* border: 2px solid black; */
+  float: left;
+  /* background-color: teal; */
+  margin: 10px 0px 0px 0px;
+}
+#b4 {
+  width: 250px;
+  /* border: 2px solid black; */
+  float: left;
+  /* background-color: yellowgreen; */
+}
+h2 {
+  text-align: center;
+}
+p {
+  background-color: orange;
+  border-radius: 10%;
+  text-align: center;
+  /* padding-left:5px ; */
+  margin: 5px;
+}
+#b5 {
+  width: 250px;
+  background-color: pink;
+  margin-top: 100px;
+}
+#b6 {
+  float: left;
+  margin: 10px 0px 0px 15px;
+}
+#em {
+  width: 200px;
+  height: 100px;
+}

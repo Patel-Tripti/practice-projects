@@ -1,0 +1,29 @@
+.box{
+    width: 600px;
+    height: 500px;
+    border: 2px solid black;
+    background-image: url(./nature.jpg);
+    background-repeat: no-repeat;
+    margin: auto;
+    filter: contrast(100%);
+}
+.box1 span{
+    font-size: 30px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    font-weight: 600;
+    position: relative;
+    left:340px;
+    top:-470px;
+    text-transform: uppercase;
+    
+}
+span:hover{
+    color: tomato;
+    background-color: teal;
+    cursor:progress;
+}
+.box:hover{
+    filter: contrast(120%);
+    cursor: zoom-in;
+}

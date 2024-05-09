@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>attribute and nth child</title>
+    <style>
+      .container {
+        display: block;
+        font-size: 40px;
+        width: 200px;
+        margin: auto;
+      }
+      input {
+        display: block;
+        margin: 10px;
+      }
+      input[type="text"] {
+        padding: 5px;
+        border: 5px solid black;
+      }
+      input[type="submit"] {
+        border: 4px solid blueviolet;
+        border-radius: 6px;
+      }
+      a[target="blank"] {
+        color: palevioletred;
+      }
+      /* li:nth-child(4){
+            color: brown;
+        } */
+      /* li:nth-child(odd){
+            color: red;
+        }
+        li:nth-child(even){
+            color: blueviolet;
+        } */
+      li:nth-child(2n + 3) {
+        background-color: palevioletred;
+      }
+    </style>
+  </head>
+  <body></body>
+  <div class="container">
+    <h1><a href="http://google.com" target="blank">go to google</a></h1>
+    <h3><a href="http://facebok.com" target="self">go to facebook</a></h3>
+    <form action="" class="form-control">
+      <input type="text" placeholder="enter your name" />
+      <input type="email" placeholder="enter your email" />
+      <input type="password" placeholder="enyer your password" />
+      <input type="submit" value="submit" />
+    </form>
+    <ul>
+      <li class="iteam" id="iteam1">iteam1</li>
+      <li class="iteam" id="iteam2">iteam2</li>
+      <li class="iteam" id="iteam3">iteam3</li>
+      <li class="iteam" id="iteam4">iteam4</li>
+      <li class="iteam" id="iteam5">iteam5</li>
+      <li class="iteam" id="iteam6">iteam6</li>
+      <li class="iteam" id="iteam7">iteam7</li>
+    </ul>
+  </div>
+</html>

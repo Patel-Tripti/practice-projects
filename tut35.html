@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>variables and costom properties</title>
+    <style>
+      .container {
+        display: flex;
+        align-items: center;
+        max-width: var(--maxw);
+        margin: auto;
+        background-color: var(--danger-color);
+        justify-content: center;
+        /* background-color: var(--box-color); */
+      }
+      .box {
+        --box-color: rgb(250, 90, 116);
+        width: 400px;
+        height: 400px;
+        border: 8px var(--danger-color);
+        background-color: var(--primary-color);
+        margin: 10px;
+        box-shadow: 5px 8px var(--box-color);
+      }
+      :root {
+        --primary-color: blue;
+        --danger-color: green;
+        --maxw: 333px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>

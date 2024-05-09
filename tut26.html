@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dancs classes</title>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        background: url("./pexels-tim-gouw-175658.jpg");
+        background-size: cover;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      }
+      .header {
+        font-size: 50px;
+        color: black;
+      }
+      .first {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        top: 45px;
+        left: 176px;
+      }
+      .mid {
+        /* border: 2px solid red; */
+        display: block;
+        width: 1000px;
+        margin: 40px auto;
+      }
+      .last {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        top: 45px;
+        right: 290px;
+      }
+      .navbar {
+        display: inline block;
+      }
+      .navbar li {
+        display: inline-block;
+        padding: 2px 14px;
+      }
+      .navbar li a {
+        text-decoration: none;
+        color: black;
+      }
+      .navbar li a:hover,
+      .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(215, 212, 212);
+      }
+      .first img {
+        width: 300px;
+        height: 250px;
+      }
+      .first div {
+        text-align: center;
+      }
+      .btn {
+        padding: 10px 50px;
+        border-radius: 10px;
+        font-size: 40px;
+        border-radius: 20px;
+        margin: 5px 10px;
+        cursor: pointer;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      }
+      .btn:hover {
+        background-color: grey;
+      }
+      .container {
+        /* border: 2px solid red; */
+        /* width: 1300px; */
+        padding: 5px 45px;
+        margin: 400px auto;
+        /* height: 800px; */
+        /* border-radius: 40px; */
+        font-size: 30px;
+      }
+      .form.group input{
+        font-size: 40px;
+        display: block;
+        margin: 10px auto;
+        padding: 12px 5px;
+        text-align: center;
+        width: 700px;
+        border: 5px solid black;
+        border-radius: 35px;
+        
+      }
+      .container h2{
+        text-align: center;
+      }
+      .container button{
+       display: block;
+        width: 400px;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="first">
+        <img src="./morgan-petroski-LsMxdW1zWEQ-unsplash.jpg" />
+        <div>Natraj Academy</div>
+      </div>
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="activ">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Dance style</a></li>
+          <li><a href="#">Contect us</a></li>
+        </ul>
+      </div>
+      <div class="last">
+        <button class="btn">call us now</button>
+        <button class="btn">email us</button>
+      </div>
+    </header>
+    <div class="container">
+     <h2>About your self</h2>
+     <form action="noaction.php">
+      <div class="form group">
+        <input type="text" name="" placeholder="enter your name">
+      </div>
+      <div class="form group">
+        <input type="text" name="" placeholder="enter your age">
+      </div>
+      <div class="form group">
+        <input type="text" name="" placeholder="enter your contact number">
+      </div>
+      <button class="btn">submit</button>
+    </div>
+  </body>
+</html>
